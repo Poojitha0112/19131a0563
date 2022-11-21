@@ -1,0 +1,9 @@
+n=int(input())
+temp=[]
+while(n>0):
+    r=n%3
+    temp.append(str(r))
+    n=n//3
+temp.reverse()
+s="".join(temp)
+print(s)
